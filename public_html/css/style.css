@@ -1,0 +1,951 @@
+body
+{
+    width:100%;
+}
+
+/************************************************************************
+                        Main page
+***********************************************************************/
+
+/*
+ --------------------------------------------------------------------
+                    Header Menu
+ --------------------------------------------------------------------
+*/
+
+#wrapper{
+
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left:  10px;
+}
+#header_Style
+{
+    margin-top:1px;
+    width:auto;
+}
+.header{
+    width: 60%;
+    margin-left: 180px;
+}
+.headerSearch{
+    margin-top: 1px;
+    width:35%;
+
+}
+#header_Style h1
+{
+    margin-top:-100px;
+    width:auto;
+    margin-left: 180px;
+    height: 30px;
+}
+#header_Style h2
+{
+    margin-top:20px;
+    width:auto;
+    height: 50px;
+    margin-left: 180px;
+}
+.LogoImg {
+    position:relative;
+    width:120px;
+    height: 120px;
+    margin-left: 20px;
+}
+.LogoImg1 {
+    margin-top: -200px;
+    clear: both;
+    position:relative;
+    margin-left:400px;
+    width:80px;
+    height: 80px;
+}
+
+.form_Search{
+    margin-top: -20px;
+    clear: both;
+    position:relative;
+    margin-left:330px;
+}
+.btn{
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    border:none;
+    font-size:10px;
+    font-weight:600;
+    border-radius:5px;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+#mySerach{
+    margin-top: -20px;
+    clear: both;
+    position:relative;
+    margin-left:380px;
+}
+
+/*---------------------End Header Menu -----------------------------*/
+
+/*
+ --------------------------------------------------------------------
+                    Navigation Menu
+ --------------------------------------------------------------------
+*/
+
+#navmenu{
+    clear:both;
+    margin-top:140px;
+    padding:0;
+    list-style-type:none;
+    width:1000px;
+    position:relative;
+    display:block;
+    height:50px;
+    font-size:18px;
+    font-weight:bold;
+    font-family:Helvetica,Arial,Verdana,sans-serif;
+    border-bottom:1px solid #73AD21;
+    margin:0 auto;
+    background-color: green;
+}
+#navmenu li{
+    display:block;
+    float:left;
+    margin:0;
+    pading:0;
+}
+
+#navmenu li a{
+    display:block;
+    float:left;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    padding:12px 20px 0 20px;
+    height:24px;
+}
+/*---------------------End Navigation Menu ------------------------*/
+
+/*
+ --------------------------------------------------------------------
+                 Share Menu
+ --------------------------------------------------------------------
+*/
+.connect_Text{
+    clear:both;
+    margin-left:530px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.fa {
+    float:right;
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    height :10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+.fa-rss {
+    background: #ff6600;
+    color: white;
+}
+
+/*---------------------End Share Menu -----------------------------*/
+
+/*
+ --------------------------------------------------------------------
+                    Share Menu Section
+ --------------------------------------------------------------------
+*/
+.share_section {
+    clear:both;
+    border:2px;
+    margin-left: auto;
+    height: 70px;
+    width:1000px;
+    margin:0 auto;
+}
+/*---------------------End Share Menu -----------------------------*/
+/*
+ --------------------------------------------------------------------
+                   section for What we will do
+ --------------------------------------------------------------------
+*/
+.mainpage_section1 {
+    clear:both;
+    margin-right: auto;
+    height: 450px;
+    width:600px;
+    border: 2px solid green;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 5px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 50px;
+
+}
+.mainpage_section1_Title {
+    clear:both;
+    border:2px;
+    margin-right: auto;
+    height: 45px;
+    width:600px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-bottom: 10px;
+    border-radius: 2px;
+
+}
+.mainpage_section1 h2 {
+    text-align:center;
+    font-size: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: oblique;
+}
+
+.mainpage_section1_Content{
+    clear:both;
+    border:2px;
+    margin-right: auto;
+    height: auto;
+    width:600px;
+    text-align: left;
+    position: absolute;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.mainpage_section1 p {
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+    padding-right: 15px;
+}
+
+/*---------------------End Section 01 -------------------------------*/
+/*
+/*
+ --------------------------------------------------------------------
+                 Section 03(Panel Decompose)
+ --------------------------------------------------------------------
+*/
+.mainpage_section2{
+    clear:both;
+    width : 600px;
+    padding-top: 20px;
+    height : auto;
+    margin-left: 10px;
+    margin-right:auto;
+    border: 2px solid darkgreen;
+    margin-top:215px;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 4px;
+}
+.mainpage_section2_Title{
+    clear:both;
+    width : 600px;
+    height: 45px;
+    background-color:darkgreen;
+    margin-top: -40px;
+    text-align: center;
+    color:white;
+}
+.mainpage_section2 h2{
+    text-align:center;
+    font-size: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: oblique;
+}
+/*_____Class For aside Content and links_____*/
+.mainpage_section2_Content {
+    clear:both;
+    background-color: white;
+    height: auto;
+}
+.mainpage_section2_Content ul {
+    display: inherit;
+    list-style-type: none;
+}
+.mainpage_section2_Content ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.mainpage_section2_Content ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 20px 0 20px;
+    height: 24px;
+}
+
+/*_______Class For links________________*/
+
+.mainpage_section2_Content ul li a:hover {
+    color:yellowgreen;
+}
+.mainpage_section2_Content ul li a:visited {
+    color:darkorange;
+}
+.mainpage_section2_Content ul li a:link {
+    color:green;
+}
+.mainpage_section2_Content ul li a:active {
+    color:yellowgreen;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+/*---------------------End Aside 03(Panel Decompose)  -------------*/
+
+/*
+ --------------------------------------------------------------------
+                    Section 02(Quote)
+ --------------------------------------------------------------------
+*/
+
+.section_quote {
+    clear:both;
+    border:2px solid darkgreen;
+    margin-right: auto;
+    height: auto;
+    width:600px;
+    margin-top:100px;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 5px;
+}
+.section_quote_Title {
+    clear:both;
+    width:600px;
+    height: 45px;
+    background-color:darkgreen;
+    margin-top: -20px;
+    text-align: center;
+    color:white;
+}
+.section_quote h2 {
+    text-align:center;
+    font-size: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: oblique;
+}
+
+.section_quote p {
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+/*---------------------End Section 02 -------------------------------*/
+
+/*
+ --------------------------------------------------------------------
+               Aside 01(Panel Knowledge)
+ --------------------------------------------------------------------
+*/
+aside{
+    clear: both;
+    margin-left: 300px;
+    padding-bottom: 0px;
+    height: auto;
+
+}
+
+/*_____Class For aside_____*/
+.panel_aside {
+    clear:both;
+    width : 240px;
+    height : 180px;
+    border : 2px solid darkgreen;
+    margin-left: 725px;
+    margin-top:-700px;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 5px;
+}
+/*_____Class For aside Title_____*/
+.panel_aside_Title {
+    clear:both;
+    width : 240px;
+    height : 40px;
+    background-color:darkgreen;
+    margin-top: -20px;
+    text-align: center;
+    color: white;
+}
+/*_____Class For aside Content and links_____*/
+.panel_aside_Content {
+    clear:both;
+    text-align: left;
+}
+.panel_aside_Content ul {
+    display: inherit;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.panel_aside_Content ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.panel_aside_Content ul li a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 20px 0 20px;
+    height: 24px;
+    margin-bottom: 10px;
+}
+/*_______Class For links________________*/
+.panel_aside_Content ul li a:hover {
+    color:yellowgreen;
+}
+.panel_aside_Content ul li a:visited {
+    color:darkorange;
+}
+.panel_aside_Content ul li a:link {
+    color:green;
+}
+.panel_aside_Content ul li a:active {
+    color:yellowgreen;
+    text-decoration: none;
+    background-color: transparent;
+}
+/*---------------------End Aside 01(Panel Knowledge) -----------*/
+
+/*
+ --------------------------------------------------------------------
+                   Aside 02 (Panel Review)
+ --------------------------------------------------------------------
+*/
+
+.panel_review {
+    clear:both;
+    width : 240px;
+    padding-top: 20px;
+    height : 100px;
+    background-color:white;
+    margin-left: 725px;
+    border: 2px solid darkgreen;
+    margin-top:20px;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 4px;
+}
+
+/*_____Class For aside Title_____*/
+.panel_review_Title {
+    clear:both;
+    width : 240px;
+    height : 40px;
+    background-color:darkgreen;
+    margin-top: -40px;
+    text-align: center;
+    color:white;
+}
+/*_____Class For aside Content and links_____*/
+.panel_review_Content {
+    clear:both;
+    background-color: white;
+}
+.panel_review_Content ul {
+    display: inherit;
+    list-style-type: none;
+}
+.panel_review_Content ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.panel_review_Content ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 20px 0 20px;
+    height: 24px;
+}
+/*_______Class For links________________*/
+
+.panel_review_Content ul li a:hover {
+    color:yellowgreen;
+}
+.panel_review_Content ul li a:visited {
+    color:darkorange;
+}
+.panel_review_Content ul li a:link {
+    color:green;
+}
+.panel_review_Content ul li a:active {
+    color:yellowgreen;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*---------------------End Aside 02(Panel Review) -----------*/
+
+
+/*
+ --------------------------------------------------------------------
+                  Separator
+ --------------------------------------------------------------------
+*/
+.separator {
+    clear:both;
+    width:980px;
+    margin:0 auto;
+    padding-bottom: 10px;
+    border-top:1px solid #73AD21;
+}
+/*---------------------End Separator -------------*/
+
+
+/************************** End  Index Page ******************************/
+
+
+/************************************************************************
+                Register and Sign In page
+***********************************************************************/
+/*
+ --------------------------------------------------------------------
+                Login Section
+ --------------------------------------------------------------------
+*/
+
+.login_section {
+    clear:both;
+    width : 25%;
+    float:left;
+    height: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 60px;
+    margin-top:100px;
+    margin-left: 40px;
+}
+
+.login_section input[type=text],select, input[type=password], input[type=email]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login_section input[type=submit] {
+    clear: both;
+    width: 250px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.login_section input[type=submit]:hover {
+    background-color: #45a049;
+    align-content: center;
+}
+
+/*---------------------End Login Section  -------------*/
+/*
+ --------------------------------------------------------------------
+                Register Section
+ --------------------------------------------------------------------
+*/
+.register_section {
+    clear:both;
+    width : 50%;
+    height: auto;
+    border-radius: 5px;
+    background-color:green;
+    padding: 60px;
+    margin-top:-455px;
+    float: right;
+    margin-right:-35px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.register_section label{
+    text-decoration-color: white;
+}
+#type{
+
+}
+.register_section input[type=text],select, input[type=password], input[type=email]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.register_section input[type=submit] {
+    clear: both;
+    width: 250px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register_section input[type=submit]:hover {
+    background-color: #45a049;
+    align-content: center;
+}
+
+/*---------------------End Register Section  -------------*/
+
+/*************** End Register and Sign In Page *************************/
+
+
+/************************************************************************
+             Drop Off Page  -    About us page -  Rewards page
+***********************************************************************/
+.dropoff{
+    clear: both;
+    margin-top: 50px;
+    margin-left: auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+.aboutus_section1{
+    clear: both;
+    width: auto;
+    height: auto;
+}
+.content_section3 {
+    clear:both;
+    border:2px;
+    margin-right: auto;
+    height: auto;
+    width:auto;
+}
+.content_section3 h2 {
+    text-align:center;
+    font-size: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: oblique;
+}
+.content_section3 span {
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*************** End Drop Off Page *************************/
+
+/************************************************************************
+               Contact us page
+***********************************************************************/
+
+.container {
+    clear: both;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    width:800px;
+    height: auto;
+    margin-right: auto;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.form1 {
+     /* Apenas para centralizar o form na página */
+     margin: 0 auto;
+     width: 400px;
+     /* Para ver as bordas do formulário */
+     padding: 1em;
+     border: 1px solid #CCC;
+     border-radius: 1em;
+ }
+.form1 div + div {
+    margin-top: 1em;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea, email {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input, email {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+.button {
+    padding-left: 90px;
+
+}
+button {
+    margin-left: .5em;
+}
+/*************** End Contact Us Page *************************/
+
+
+
+/************************************************************************
+               Links page
+***********************************************************************/
+
+.displayLinks {
+    clear: both;
+    width: auto;
+    height: auto;
+}
+.displayLinks ul{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.displayLinks ul li{
+    clear: both;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    margin-bottom: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+/*_______Class For links________________*/
+
+.displayLinks  ul li a:hover {
+    color:yellowgreen;
+}
+.displayLinks ul li a:visited {
+    color:darkorange;
+}
+.displayLinks  ul li a:link {
+    color:green;
+}
+.displayLinks  ul li a:active {
+    color:yellowgreen;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/************** End  Link Page******************************/
+
+/************************************************************************
+              Css for Tables
+***********************************************************************/
+.tabelLines {
+    border-collapse: collapse;
+    border: solid green 1px;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.tabelLines th{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+.tabelLines tr:nth-child(even){
+    background-color: ghostwhite;
+    color: black;
+    text-align: left;
+}
+.tabelLines tr:nth-child(odd){
+    background-color: lightgreen;
+    color: black;
+    text-align: left;
+}
+
+
+
+/***************End  CSS Tables Page *************************/
+
+/************************************************************************
+               Write a Review page
+***********************************************************************/
+
+.container1 {
+    clear: both;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    width: 800px;
+    height: auto;
+    margin-right: auto;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.form2 {
+    margin: 0 auto;
+    width: 750px;
+    height: auto;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+
+}
+.form2 div + div {
+    margin-top: 1em;
+}
+
+
+/*
+***********************************************************************
+            Images
+***********************************************************************
+*/
+
+#aside_picture{
+    clear: both;
+    margin-left: 680px;
+    margin-top:50px;
+
+}
+/* *********************End Images **************************/
+
+/**************** Register page *****************************/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+    margin-left: 20px;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form input[type=submit] {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+   /* -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;*/
+    cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.form .register-form {
+    display: none;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.container:before, .container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+.container .info span .fa {
+    color: #EF3B3A;
+}
