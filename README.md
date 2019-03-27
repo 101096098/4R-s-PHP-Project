@@ -2,5 +2,5 @@
 
 # Team
 
-  Size: 3 students
-  Role: Front end developer
+ - Size: 3 students
+ - Role: Front end developer
